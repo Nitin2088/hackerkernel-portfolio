@@ -3,7 +3,7 @@
 let allProjects = [];
 
 async function loadProjects() {
-  const response = await fetch("./projects.json");
+  const response = await fetch("/projects.json");
 
   const data = await response.json();
 
