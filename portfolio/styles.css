@@ -323,3 +323,40 @@ h1 {
     font-size: 24px;
   }
 }
+/* Filters */
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-bottom: 40px;
+}
+
+.filter-btn {
+  padding: 12px 18px;
+
+  border-radius: 999px;
+
+  border: 1px solid #2e2e2e;
+
+  background: #141414;
+
+  color: white;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+
+  font-size: 14px;
+
+  font-weight: 600;
+}
+
+.filter-btn:hover {
+  border-color: #ff2b2b;
+}
+
+.filter-btn.active {
+  background: #ff2b2b;
+  border-color: #ff2b2b;
+}
