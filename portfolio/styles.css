@@ -6,139 +6,320 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  background: #0b0b0b;
-  color: white;
+  background: #050505;
+  color: #ffffff;
   font-family: Arial, sans-serif;
   line-height: 1.7;
 }
 
+/* -------------------- */
+/* Layout */
+/* -------------------- */
+
 .container {
-  max-width: 1300px;
+  max-width: 1500px;
   margin: auto;
-  padding: 40px 20px;
+  padding: 60px 28px 100px;
 }
 
+/* -------------------- */
+/* Header */
+/* -------------------- */
+
 header {
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 
 h1 {
-  font-size: 56px;
-  margin-bottom: 10px;
+  font-size: 72px;
+  font-weight: 800;
+  margin-bottom: 14px;
+  color: white;
+  letter-spacing: -2px;
 }
 
 .subtitle {
-  color: #999;
-  font-size: 18px;
+  color: #b5b5b5;
+  font-size: 20px;
+  max-width: 900px;
 }
 
+/* -------------------- */
+/* Search */
+/* -------------------- */
+
 .search-section {
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 #searchInput {
   width: 100%;
-  padding: 18px;
-  border-radius: 14px;
-  border: 1px solid #2b2b2b;
-  background: #161616;
+  padding: 22px;
+  border-radius: 18px;
+  border: 1px solid #2d2d2d;
+  background: #101010;
   color: white;
-  font-size: 16px;
+  font-size: 17px;
   outline: none;
+  transition: 0.25s ease;
 }
 
 #searchInput:focus {
-  border-color: #666;
+  border-color: #ff2b2b;
+  box-shadow: 0 0 0 4px rgba(255, 43, 43, 0.12);
 }
+
+/* -------------------- */
+/* Grid */
+/* -------------------- */
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
-  gap: 24px;
+  grid-template-columns: repeat(auto-fit, minmax(430px, 1fr));
+  gap: 32px;
+  align-items: start;
 }
 
+/* -------------------- */
+/* Card */
+/* -------------------- */
+
 .card {
-  background: #161616;
-  border: 1px solid #2a2a2a;
-  border-radius: 20px;
-  padding: 28px;
-  transition: 0.2s;
+  background: linear-gradient(
+    180deg,
+    #141414 0%,
+    #0f0f0f 100%
+  );
+
+  border: 1px solid #262626;
+
+  border-radius: 24px;
+
+  padding: 32px;
+
+  transition: 0.28s ease;
+
+  position: relative;
+
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 18px;
+
+  min-height: 100%;
+}
+
+.card::before {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 4px;
+
+  background: linear-gradient(
+    90deg,
+    #ff2b2b,
+    #ff5e5e
+  );
+
+  opacity: 0;
+  transition: 0.25s ease;
 }
 
 .card:hover {
-  border-color: #666;
+  transform: translateY(-6px);
+
+  border-color: #ff2b2b;
+
+  box-shadow:
+    0 12px 40px rgba(0, 0, 0, 0.45),
+    0 0 0 1px rgba(255, 43, 43, 0.08);
 }
 
+.card:hover::before {
+  opacity: 1;
+}
+
+/* -------------------- */
+/* Typography */
+/* -------------------- */
+
 .category {
-  color: #8a8a8a;
-  font-size: 14px;
-  margin-bottom: 12px;
+  color: #ff4d4d;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
 }
 
 .card h3 {
-  margin-bottom: 16px;
-  font-size: 28px;
+  font-size: 30px;
+  line-height: 1.2;
+  color: white;
 }
 
 .description {
-  color: #c7c7c7;
-  margin-bottom: 20px;
+  color: #c8c8c8;
+  font-size: 15px;
+  line-height: 1.8;
 }
 
 .section-title {
-  margin-bottom: 10px;
-  font-size: 16px;
+  font-size: 15px;
+  font-weight: 700;
   color: white;
+  margin-bottom: -6px;
 }
+
+/* -------------------- */
+/* Tags */
+/* -------------------- */
 
 .tags {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  margin-bottom: 20px;
 }
 
 .tag {
-  background: #222;
-  border: 1px solid #333;
-  padding: 8px 12px;
+  background: rgba(255, 43, 43, 0.08);
+
+  border: 1px solid rgba(255, 43, 43, 0.22);
+
+  padding: 10px 14px;
+
   border-radius: 999px;
-  font-size: 14px;
-  color: #ddd;
+
+  font-size: 13px;
+
+  color: #ffd2d2;
+
+  transition: 0.2s ease;
 }
+
+.tag:hover {
+  background: rgba(255, 43, 43, 0.16);
+
+  border-color: rgba(255, 43, 43, 0.45);
+}
+
+/* -------------------- */
+/* Links */
+/* -------------------- */
 
 .links {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
-  margin-top: 20px;
+  margin-top: auto;
+  padding-top: 6px;
 }
 
 .links a {
   text-decoration: none;
+
   color: white;
-  background: #262626;
-  padding: 10px 16px;
-  border-radius: 12px;
-  border: 1px solid #333;
+
+  background: #1c1c1c;
+
+  padding: 12px 16px;
+
+  border-radius: 14px;
+
+  border: 1px solid #303030;
+
+  font-size: 14px;
+
+  transition: 0.2s ease;
 }
 
 .links a:hover {
-  border-color: #777;
+  border-color: #ff2b2b;
+
+  background: rgba(255, 43, 43, 0.08);
 }
 
+/* -------------------- */
+/* Copy Button */
+/* -------------------- */
+
 .copy-btn {
-  margin-top: 20px;
-  padding: 12px 16px;
-  border-radius: 12px;
-  border: 1px solid #333;
-  background: #222;
+  padding: 14px 18px;
+
+  border-radius: 14px;
+
+  border: 1px solid #2d2d2d;
+
+  background: #191919;
+
   color: white;
+
   cursor: pointer;
+
   width: 100%;
+
+  font-size: 15px;
+
+  font-weight: 600;
+
+  transition: 0.25s ease;
 }
 
 .copy-btn:hover {
-  border-color: #777;
+  border-color: #ff2b2b;
+
+  background: rgba(255, 43, 43, 0.08);
+}
+
+/* -------------------- */
+/* Empty State */
+/* -------------------- */
+
+.empty-state {
+  text-align: center;
+  padding: 60px;
+  border-radius: 24px;
+  background: #101010;
+  border: 1px solid #222;
+}
+
+/* -------------------- */
+/* Responsive */
+/* -------------------- */
+
+@media (max-width: 768px) {
+  .container {
+    padding: 36px 18px 80px;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    padding: 24px;
+  }
+
+  .card h3 {
+    font-size: 24px;
+  }
 }
