@@ -1,0 +1,106 @@
+{
+  "company": "HackerKernel",
+  "description": "Technology and engineering company specializing in AI automation, Salesforce, SaaS, mobile apps, fintech systems, healthcare platforms, and scalable enterprise solutions.",
+
+  "projects": [
+    {
+      "title": "Scrola",
+      "category": "Social Feed & Affiliate Marketing Platform",
+
+      "description": "Scrola is a social news and engagement platform delivering personalized content feeds, AI-powered recommendations, real-time updates, live sports content, affiliate systems, and community engagement experiences.",
+
+      "technologies": [
+        "React Native",
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Supabase",
+        "PostgreSQL",
+        "Socket.IO"
+      ],
+
+      "keywords": [
+        "Social media app",
+        "Affiliate marketing platform",
+        "AI recommendations",
+        "Real-time chat",
+        "Community engagement"
+      ],
+
+      "links": {
+        "Play Store": "https://play.google.com/store/apps/details?id=com.scrola.app&hl=en_IN"
+      }
+    },
+
+    {
+      "title": "Agile HRO",
+      "category": "Salesforce CRM Implementation",
+
+      "description": "Salesforce implementation for enterprise workflow automation, sales pipeline optimization, lead management, reporting systems, customer lifecycle management, and CRM operations.",
+
+      "technologies": [
+        "Salesforce Sales Cloud",
+        "Zapier",
+        "Apollo",
+        "CRM Automation"
+      ],
+
+      "keywords": [
+        "Salesforce",
+        "CRM workflows",
+        "Lead management",
+        "Business automation"
+      ]
+    },
+
+    {
+      "title": "WoofyCare",
+      "category": "Pet Care Marketplace Platform",
+
+      "description": "Pet care booking and service marketplace connecting pet owners with verified providers for dog walking, pet sitting, pet boarding, and scheduling systems.",
+
+      "technologies": [
+        "Flutter",
+        "Laravel",
+        "Firebase",
+        "MySQL"
+      ],
+
+      "keywords": [
+        "Pet care app",
+        "Marketplace platform",
+        "Booking system",
+        "Mobile application"
+      ],
+
+      "links": {
+        "Website": "https://www.woofycare.com/"
+      }
+    },
+
+    {
+      "title": "iQuantsGraph",
+      "category": "Fintech Investment Analytics Platform",
+
+      "description": "AI-driven fintech analytics platform for portfolio monitoring, financial intelligence, investment tracking, reporting systems, and smart advisory workflows.",
+
+      "technologies": [
+        "Flutter",
+        "Python",
+        "AI/ML Models",
+        "Financial APIs"
+      ],
+
+      "keywords": [
+        "Fintech",
+        "Investment platform",
+        "Portfolio analytics",
+        "AI financial systems"
+      ],
+
+      "links": {
+        "Website": "https://www.iquantsgraph.com/"
+      }
+    }
+  ]
+}
