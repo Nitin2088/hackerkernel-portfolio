@@ -46,6 +46,10 @@ function renderProjects(projects) {
 
       <h3>${project.title}</h3>
 
+      <button class="copy-btn">
+        Copy JSON
+      </button>
+
       <p class="description">
         ${project.description}
       </p>
