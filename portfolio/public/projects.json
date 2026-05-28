@@ -1,13 +1,29 @@
 {
   "company": "HackerKernel",
-  "description": "Technology and engineering company specializing in AI automation, Salesforce, SaaS, mobile apps, fintech systems, healthcare platforms, and scalable enterprise solutions.",
+  "website": "https://hackerkernel.com",
+  "description": "Technology and engineering company specializing in AI automation, Salesforce, SaaS platforms, mobile applications, fintech systems, healthcare products, CRM integrations, enterprise software, workflow automation, and scalable digital platforms.",
+
+  "specializations": [
+    "AI Automation",
+    "Salesforce",
+    "CRM Integrations",
+    "Workflow Automation",
+    "Mobile App Development",
+    "Full Stack Development",
+    "UI/UX Design",
+    "SaaS Platforms",
+    "Healthcare Systems",
+    "Fintech Platforms",
+    "Enterprise Applications",
+    "Cloud Infrastructure"
+  ],
 
   "projects": [
     {
       "title": "Scrola",
       "category": "Social Feed & Affiliate Marketing Platform",
 
-      "description": "Scrola is a social news and engagement platform delivering personalized content feeds, AI-powered recommendations, real-time updates, live sports content, affiliate systems, and community engagement experiences.",
+      "description": "Scrola is a social news and engagement platform delivering personalized content feeds, AI-powered recommendations, real-time updates, affiliate systems, live sports content, and community engagement experiences.",
 
       "technologies": [
         "React Native",
@@ -17,6 +33,14 @@
         "Supabase",
         "PostgreSQL",
         "Socket.IO"
+      ],
+
+      "services": [
+        "Mobile App Development",
+        "Backend Development",
+        "Realtime Systems",
+        "AI Recommendations",
+        "UI/UX Design"
       ],
 
       "keywords": [
@@ -36,7 +60,7 @@
       "title": "Agile HRO",
       "category": "Salesforce CRM Implementation",
 
-      "description": "Salesforce implementation for enterprise workflow automation, sales pipeline optimization, lead management, reporting systems, customer lifecycle management, and CRM operations.",
+      "description": "Enterprise Salesforce implementation focused on sales automation, customer lifecycle management, CRM optimization, reporting systems, lead tracking, and workflow automation.",
 
       "technologies": [
         "Salesforce Sales Cloud",
@@ -45,11 +69,19 @@
         "CRM Automation"
       ],
 
+      "services": [
+        "Salesforce Development",
+        "CRM Automation",
+        "Lead Management",
+        "Workflow Automation"
+      ],
+
       "keywords": [
         "Salesforce",
         "CRM workflows",
         "Lead management",
-        "Business automation"
+        "Business automation",
+        "Sales pipeline"
       ]
     },
 
@@ -57,13 +89,19 @@
       "title": "WoofyCare",
       "category": "Pet Care Marketplace Platform",
 
-      "description": "Pet care booking and service marketplace connecting pet owners with verified providers for dog walking, pet sitting, pet boarding, and scheduling systems.",
+      "description": "Pet care booking and service marketplace connecting pet owners with verified providers for dog walking, pet sitting, boarding services, and scheduling workflows.",
 
       "technologies": [
         "Flutter",
         "Laravel",
         "Firebase",
         "MySQL"
+      ],
+
+      "services": [
+        "Mobile App Development",
+        "Marketplace Platform",
+        "Booking System Development"
       ],
 
       "keywords": [
@@ -82,7 +120,7 @@
       "title": "iQuantsGraph",
       "category": "Fintech Investment Analytics Platform",
 
-      "description": "AI-driven fintech analytics platform for portfolio monitoring, financial intelligence, investment tracking, reporting systems, and smart advisory workflows.",
+      "description": "AI-driven fintech analytics platform for investment tracking, portfolio monitoring, financial intelligence, reporting systems, and smart advisory workflows.",
 
       "technologies": [
         "Flutter",
@@ -91,16 +129,217 @@
         "Financial APIs"
       ],
 
+      "services": [
+        "Fintech Development",
+        "AI Analytics",
+        "Dashboard Systems",
+        "Financial Data Engineering"
+      ],
+
       "keywords": [
         "Fintech",
         "Investment platform",
         "Portfolio analytics",
-        "AI financial systems"
+        "AI financial systems",
+        "Trading insights"
       ],
 
       "links": {
         "Website": "https://www.iquantsgraph.com/"
       }
+    },
+
+    {
+      "title": "Genesis",
+      "category": "Healthcare AI Automation Platform",
+
+      "description": "Healthcare automation and voice transcription platform designed for intelligent medical workflows, voice-based data capture, AI processing, and healthcare operational efficiency.",
+
+      "technologies": [
+        "React",
+        "Node.js",
+        "AI APIs",
+        "Speech-to-Text",
+        "Cloud Infrastructure"
+      ],
+
+      "services": [
+        "Healthcare Systems",
+        "AI Automation",
+        "Voice Processing",
+        "Workflow Automation"
+      ],
+
+      "keywords": [
+        "Healthcare AI",
+        "Voice transcription",
+        "Medical workflows",
+        "Automation platform"
+      ]
+    },
+
+    {
+      "title": "KPI6",
+      "category": "AI & Data Intelligence Platform",
+
+      "description": "AI-driven analytics and intelligence platform focused on large-scale data analysis, KPI monitoring, reporting systems, and business intelligence workflows.",
+
+      "technologies": [
+        "React",
+        "Python",
+        "Node.js",
+        "Analytics APIs",
+        "Dashboard Systems"
+      ],
+
+      "services": [
+        "AI Analytics",
+        "Dashboard Development",
+        "Data Intelligence",
+        "Reporting Systems"
+      ],
+
+      "keywords": [
+        "Business intelligence",
+        "AI analytics",
+        "KPI tracking",
+        "Data platform"
+      ]
+    },
+
+    {
+      "title": "RankEval",
+      "category": "SEO & Ranking Analytics Platform",
+
+      "description": "SEO ranking and analytics platform designed for keyword monitoring, ranking analysis, website optimization tracking, and reporting automation.",
+
+      "technologies": [
+        "React",
+        "Node.js",
+        "SEO APIs",
+        "Analytics Systems"
+      ],
+
+      "services": [
+        "SEO Platform Development",
+        "Analytics Systems",
+        "Automation Workflows"
+      ],
+
+      "keywords": [
+        "SEO analytics",
+        "Keyword tracking",
+        "Ranking platform",
+        "SEO automation"
+      ]
+    },
+
+    {
+      "title": "Upcopy",
+      "category": "AI Content Automation Platform",
+
+      "description": "AI-assisted content automation platform focused on copy generation, workflow automation, campaign systems, and scalable content operations.",
+
+      "technologies": [
+        "React",
+        "OpenAI APIs",
+        "Node.js",
+        "Automation Systems"
+      ],
+
+      "services": [
+        "AI Development",
+        "Content Automation",
+        "Workflow Automation"
+      ],
+
+      "keywords": [
+        "AI copywriting",
+        "Content generation",
+        "Automation platform",
+        "AI workflows"
+      ]
+    },
+
+    {
+      "title": "MakFashion",
+      "category": "Fashion eCommerce Platform",
+
+      "description": "Premium fashion and ethnic wear eCommerce platform with product catalog systems, responsive shopping experiences, and scalable storefront workflows.",
+
+      "technologies": [
+        "React",
+        "Node.js",
+        "eCommerce Systems",
+        "Payment Gateways"
+      ],
+
+      "services": [
+        "eCommerce Development",
+        "UI/UX Design",
+        "Payment Integrations"
+      ],
+
+      "keywords": [
+        "Fashion platform",
+        "eCommerce",
+        "Shopping platform",
+        "Storefront system"
+      ]
+    },
+
+    {
+      "title": "Dazlik",
+      "category": "Business & Commerce Platform",
+
+      "description": "Business platform focused on digital commerce systems, scalable workflows, customer engagement experiences, and modern business operations.",
+
+      "technologies": [
+        "React",
+        "Node.js",
+        "Cloud Infrastructure",
+        "Database Systems"
+      ],
+
+      "services": [
+        "Business Platform Development",
+        "Cloud Systems",
+        "Full Stack Development"
+      ],
+
+      "keywords": [
+        "Business platform",
+        "Commerce systems",
+        "Cloud platform",
+        "Enterprise workflows"
+      ]
+    },
+
+    {
+      "title": "Fynders",
+      "category": "Job Portal & Hiring Platform",
+
+      "description": "Job portal and recruitment platform focused on hiring workflows, candidate discovery, employer management systems, and scalable recruitment experiences.",
+
+      "technologies": [
+        "React",
+        "Node.js",
+        "Database Systems",
+        "Search Infrastructure"
+      ],
+
+      "services": [
+        "Job Portal Development",
+        "Search Systems",
+        "Workflow Automation"
+      ],
+
+      "keywords": [
+        "Job portal",
+        "Recruitment platform",
+        "Hiring workflows",
+        "Candidate management"
+      ]
     }
   ]
 }
