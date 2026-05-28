@@ -93,24 +93,23 @@ function renderProjects(projects) {
       }
     `;
 
+    const copyButton = card.querySelector(".copy-btn");
+
+    copyButton.addEventListener("click", async () => {
+      await navigator.clipboard.writeText(
+        JSON.stringify(project, null, 2)
+      );
+
+      copyButton.innerText = "Copied!";
+
+      setTimeout(() => {
+        copyButton.innerText = "Copy JSON";
+      }, 2000);
+    });
+
     projectsGrid.appendChild(card);
   });
-  const copyButton = card.querySelector(".copy-btn");
-
-copyButton.addEventListener("click", async () => {
-  await navigator.clipboard.writeText(
-    JSON.stringify(project, null, 2)
-  );
-
-  copyButton.innerText = "Copied!";
-
-  setTimeout(() => {
-    copyButton.innerText = "Copy JSON";
-  }, 2000);
-});
-  
 }
-
 
 searchInput.addEventListener("input", (e) => {
   const value = e.target.value.toLowerCase();
