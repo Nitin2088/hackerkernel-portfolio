@@ -4,32 +4,7 @@
   "description": "Technology and engineering company specializing in AI automation, Salesforce systems, SaaS platforms, mobile apps, UI/UX design, enterprise software, workflow automation, fintech products, cloud systems, and scalable digital infrastructure.",
 
   "projects": [
-    {
-      "title": "WoofyCare",
-      "categories": [
-        "Mobile Apps",
-        "Design Projects"
-      ],
-      "description": "Modern dog walking and pet-care mobile application designed for booking walkers, scheduling recurring walks, tracking routes, and managing pet wellness experiences.",
-      "technologies": [
-        "Figma",
-        "UX Research",
-        "Wireframing",
-        "Mobile UI Design"
-      ],
-      "keywords": [
-        "Dog walking app",
-        "Pet care platform",
-        "Mobile UX",
-        "Booking experience",
-        "Real-time tracking"
-      ],
-      "searchText": "dog walking pet care booking app pet wellness mobile application walker management tracking system",
-      "links": {
-        "Figma": "https://www.figma.com/design/soIWBNmBxxBOAsIV9vA907/WoofyCare--Dog-Walking-Application-V2"
-      }
-    },
-
+    
     {
       "title": "Scrola",
       "categories": [
