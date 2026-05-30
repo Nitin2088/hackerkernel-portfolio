@@ -868,47 +868,6 @@
         "Labour tracking"
       ],
       "searchText": "construction workforce attendance payroll approvals labour tracking automation operations"
-    },
-    {
-      "title": "Creator Collaboration Platform",
-      "categories": [
-        "Mobile Apps",
-        "AI & Automation"
-      ],
-      "description": "Networking and collaboration ecosystem for creators, influencers, freelancers, and digital professionals.",
-      "technologies": [
-        "Flutter",
-        "Laravel",
-        "MySQL"
-      ],
-      "keywords": [
-        "Creator economy",
-        "Influencer platform",
-        "Collaboration network",
-        "Freelancer ecosystem"
-      ],
-      "searchText": "creator collaboration influencer networking freelancer ecosystem social platform"
-    },
-    {
-      "title": "Pet Wellness Platform",
-      "categories": [
-        "Mobile Apps",
-        "AI & Automation"
-      ],
-      "description": "Comprehensive digital pet-care ecosystem supporting wellness management, bookings, consultations, and pet engagement workflows.",
-      "technologies": [
-        "React Native",
-        "Node.js",
-        "MongoDB",
-        "AWS"
-      ],
-      "keywords": [
-        "Pet wellness",
-        "Veterinary care",
-        "Pet management",
-        "Booking platform"
-      ],
-      "searchText": "pet wellness veterinary management bookings consultations dog care pet ecosystem"
-    }    
+    }
   ]
 }
